@@ -1,0 +1,74 @@
+main {
+    text-align: center;
+}
+
+img{
+    width:100%;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: mediumpurple;
+}
+
+.header h1{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2.5%;
+}
+
+.tile{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.tile:hover{
+    box-shadow: 0 8px 16px 10px rgba(0,0,0,0.2);
+}
+
+.description{
+    background-color: white;
+    padding: 10%
+}
+
+.description h1{
+    font-size: 2rem;
+}
+
+.description p{
+    font-size: 1.2rem;
+}
+
+.portfolio{
+    color: white;
+}
+
+.portfolio h1{
+    margin: 5% auto;
+}
+
+.tech h1{
+    color: white;
+    margin: 5% auto;
+}
+
+.tech{
+    margin:auto auto 10%;
+}
+
+.social{
+    color: white;
+    margin-top: 5%;
+}
+
+.fa{
+    margin: 2%;
+    font-size: 2rem;
+}

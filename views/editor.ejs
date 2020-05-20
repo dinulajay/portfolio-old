@@ -1,0 +1,26 @@
+<%- include("partials/header") -%>
+
+<link rel="stylesheet" href="css/editor.css">
+
+<main class="main">
+
+    <section class="editor container">
+
+        <form action="/editor" method="post">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Title</label>
+                <input name="title" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Best title you can think of" autocomplete="off" autofocus required>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Content</label>
+                <textarea name="content" class="form-control" rows="10" required></textarea>
+            </div>
+            <button class="btn btn-outline-light">All Done</button>
+        </form>
+
+    </section>
+</main>
+        
+<script src="js/editor.js"></script>
+
+<%- include("partials/footer") -%>

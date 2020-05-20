@@ -1,0 +1,47 @@
+body {
+    background-color: #5d5b6a;
+    font-family: 'Courier Prime', monospace;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 2.5%;
+}
+
+footer a{
+    color: white;
+}
+
+.navbar{
+    padding: 2%;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.header-items{
+    font-size: 1.1rem;
+    padding-right: 7.5%;
+    margin-left: 52.5%;
+}
+
+.nav-item{
+    margin-right: 20%;
+}
+
+.navbar-toggler{
+    
+    border: 0;
+   
+}
+
+body:not(.accessibility) .navbar-toggler:focus{
+    
+     outline: none;
+    
+}

@@ -1,0 +1,78 @@
+h1{
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+}
+
+.home{
+    padding: 4% 7.5%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.about{
+    margin-top: 10%;
+    font-size: 1.15rem;    
+}
+
+h2{    
+    font-family: 'Montserrat', sans-serif;
+    margin: 5% auto 3%;    
+}
+
+.social{
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+.social{
+    margin-top: 5%;
+}
+
+.fa{
+    margin: 2%;
+    font-size: 2rem;
+}
+
+.additional{
+    text-align:center;
+    color: white;
+    margin-top: 2.5%;
+}
+
+footer{
+    margin:0;
+}
+
+h3{
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.shape{
+    margin-left: 525px;
+    width: 60px;
+    height: 40px;
+    background-color: palegreen;
+    border-radius: 400% 100%;
+    position: absolute;
+}
+
+.line{
+    width: 5px;
+    height: 5px;
+    background-color: purple;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.on-hover{
+    width: 50px;
+}
